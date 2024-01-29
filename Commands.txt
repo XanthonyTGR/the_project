@@ -1,0 +1,11 @@
+cd C:\Users\Xavier\the_project\locallibrary
+
+workon museum
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+python manage.py runserver
+
+Crtl+C to stop server on terminal
